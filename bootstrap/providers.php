@@ -1,7 +1,9 @@
 <?php
 
-use App\Providers\AppServiceProvider;
-
 return [
-    AppServiceProvider::class,
+    App\Providers\AppServiceProvider::class,
+    App\Providers\Filament\AdminPanelProvider::class,
+    App\Providers\Filament\AppPanelProvider::class,
+    App\Providers\Filament\EmployeePanelProvider::class,
+    App\Providers\Filament\HrPanelProvider::class,
 ];
