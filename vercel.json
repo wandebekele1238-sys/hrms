@@ -1,5 +1,0 @@
-{
-  "container": {
-    "entrypoint": "Dockerfile.vercel"
-  }
-}
